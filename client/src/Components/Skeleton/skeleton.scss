@@ -1,0 +1,41 @@
+.skeleton-box {
+  height: 58px;
+  margin-bottom: 20px;
+  border: 1px solid #ebebeb;
+  padding: 5px;
+  &__first-line {
+    width: 10%;
+    margin-bottom: 8px;
+  }
+  &-flex {
+    display: flex;
+    height: 15px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    div:nth-child(1) {
+      height: 15px;
+      width: 40%;
+      span {
+        width: 100%;
+      }
+    }
+    div:nth-child(2) {
+      height: 15px;
+      width: 5%;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 10px;
+      span {
+        float: right;
+        width: 100%;
+      }
+    }
+  }
+  &__second-line {
+    width: 30%;
+  }
+  &__third-line {
+    width: 10%;
+  }
+}

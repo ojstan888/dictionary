@@ -1,0 +1,36 @@
+@import '../../_variables.scss';
+
+header {
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: $header-height;
+  overflow: hidden;
+  &__logo {
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    &__logo {
+      width: 50%;
+      span {
+        font-size: 12px;
+      }
+    }
+    &__tools {
+      button {
+        font-size: 12px;
+      }
+    }
+  }
+}

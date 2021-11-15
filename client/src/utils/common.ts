@@ -1,0 +1,16 @@
+export const styleForLoginBox = (height?: number) => ({
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: '85%',
+  maxWidth: 400,
+  minHeight: 350,
+  maxHeight: '70%',
+  height: height || 'auto',
+  bgcolor: 'background.paper',
+  border: '2px solid #fff',
+  boxShadow: 24,
+  borderRadius: '10%',
+  p: 4,
+})
