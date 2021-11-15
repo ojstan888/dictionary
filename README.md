@@ -17,6 +17,10 @@ I learn english and I created this app for me (I use it by myself) and for all w
 6) Adaptive layout
 7) Webpack for frontend (**NOT** create-react-app)
 
+### Account for tests
+email: test@mail.com
+password: 123456
+
 ![Запись экрана 2021-11-15 в 12 26 41](https://user-images.githubusercontent.com/59839668/141757170-ff1b6ef8-2461-4961-bb59-01830165b303.gif)
 
 ![Запись экрана 2021-11-15 в 12 40 29](https://user-images.githubusercontent.com/59839668/141759072-42c87470-a557-4ebf-ae6f-d6cc9b7d7630.gif)
